@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "636b745a0ca8dbd8ce45a437"
+    },
+    "username": "userA",
+    "fullname": "Nguyen Van A",
+    "address": "Ha Noi",
+    "password": "h5r6reg7h75f",
+    "email": "nguyenvana@boxmail.com",
+    "phone_number": "091234567",
+    "role": "client",
+    "Order_id": [{"$oid": "636bc6a20ca8dbd8ce45a448"}]
+  },
+  {
+    "_id": {
+      "$oid": "636b745a0ca8dbd8ce45a438"
+    },
+    "username": "userB",
+    "fullname": "Nguyen Van B",
+    "address": "Thai Nguyen",
+    "password": "d4s6g68q65dht86",
+    "email": "nguyenvanb@boxmail.com",
+    "phone_number": "091755867",
+    "role": "client",
+    "Order_id": [{"$oid": "636bc6a20ca8dbd8ce45a449"}]
+  },
+  {
+    "_id": {
+      "$oid": "636b745a0ca8dbd8ce45a439"
+    },
+    "username": "userC",
+    "fullname": "Nguyen Van C",
+    "address": "Thanh Pho Ho Chi Minh",
+    "password": "e6wv6t468k699",
+    "email": "nguyenvanc@boxmail.com",
+    "phone_number": "091248863",
+    "role": "client ",
+    "Order_id": []
+  },
+  {
+    "_id": {
+      "$oid": "636b745a0ca8dbd8ce45a43a"
+    },
+    "username": "userY",
+    "fullname": "Nguyen Van Y",
+    "address": "Bac Ninh",
+    "password": "ik64btgn84snyt5",
+    "email": "nguyenvany@boxmail.com",
+    "phone_number": "091288543",
+    "role": "consultant"
+  },
+  {
+    "_id": {
+      "$oid": "636b745a0ca8dbd8ce45a43b"
+    },
+    "username": "userZ",
+    "fullname": "Nguyen Van Z",
+    "address": "Binh Duong",
+    "password": "dq948948fewq46q84",
+    "email": "nguyenvanz@boxmail.com",
+    "phone_number": "091656553",
+    "role": "admin"
+  }
+]

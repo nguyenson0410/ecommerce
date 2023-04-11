@@ -1,0 +1,40 @@
+[
+  {
+    "_id": {
+      "$oid": "636bc6a20ca8dbd8ce45a448"
+    },
+    "user_id": "636b745a0ca8dbd8ce45a437",
+    "total": 38480000,
+    "delivery": "Chưa Vận Chuyển",
+    "status": "Chưa Thanh Toán",
+    "product_in_order": [
+      {
+        "product_id": "62ccd4665eefc71539bb6b4c",
+        "count": 1
+      },
+      {
+        "product_id": "62ccdb045eefc71539bb6b56",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "636bc6a20ca8dbd8ce45a449"
+    },
+    "user_id": "636b745a0ca8dbd8ce45a438",
+    "total": 24770000,
+    "delivery": "Đã Vận Chuyển",
+    "status": "Chưa Thanh Toán",
+    "product_in_order": [
+      {
+        "product_id": "62ccd9eb5eefc71539bb6b54",
+        "count": 1
+      },
+      {
+        "product_id": "62ccdcc95eefc71539bb6b59",
+        "count": 2
+      }
+    ]
+  }
+]

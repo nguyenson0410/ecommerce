@@ -1,0 +1,53 @@
+.user {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 22px;
+}
+
+.title-content {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 29px;
+  padding-bottom: 27px;
+}
+th,
+td,
+table {
+  border: 1px solid #c4bec1;
+  border-collapse: collapse;
+}
+.coloumn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #c4beb1;
+  line-height: 15px;
+  height: 50px;
+}
+.coloumn-id-user {
+  width: 180px;
+}
+.coloumn-username {
+  width: 60px;
+}
+.coloumn-fullname {
+  width: 80px;
+}
+.coloumn-address {
+  width: 95px;
+}
+.coloumn-password {
+  width: 80px;
+}
+.coloumn-email {
+  width: 140px;
+}
+.coloumn-phonenumber {
+  width: 155px;
+}
+.coloumn-acion {
+  width: 80px;
+}
+.coloumn-delete button {
+  background-color: red;
+  border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/newOrderEmail.css" type="text/css" />
+
+    <style>
+      img {
+        height: 100px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid lightslategray;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Xin Chào: <%=fullname%></h1>
+    <p>Phone: <%=phone%></p>
+    <p>Adress: <%=address%></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên Sảm Phẩm</th>
+          <th>Hình Ảnh</th>
+          <th>Giá</th>
+          <th>Số Lượng</th>
+          <th>Thành Tiền</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (let item of orderProduct ){%>
+        <tr>
+          <td><%= item.name %></td>
+          <td><img src= " <%= item.img1 %>"" alt="" /></td>
+          <td><%= item.price %> VND</td>
+          <td><%=item.count%></td>
+          <td><%=item.price*item.count%> VND</td>
+        </tr>
+        <% } %>
+      </tbody>
+    </table>
+
+    <h2>Tổng Thanh Toán</h2>
+    <p><%=total%> VND</p>
+    <p>Cảm ơn bạn</p>
+  </body>
+</html>

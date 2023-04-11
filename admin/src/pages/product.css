@@ -1,0 +1,82 @@
+.product {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 5px;
+}
+
+.title-content {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 29px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+.table-toolbar {
+  display: flex;
+}
+.table-toolbar-search {
+  margin-bottom: 10px;
+  flex: 1;
+}
+.table-toolbar-add {
+  flex: 1;
+}
+.table-toolbar-add button {
+  background-color: aqua;
+  float: right;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+th,
+td,
+table {
+  border: 1px solid #c4bec1;
+  border-collapse: collapse;
+}
+.coloumn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #c4beb1;
+  line-height: 15px;
+  height: 50px;
+  text-align: center;
+}
+.coloumn-id-product {
+  width: 230px;
+}
+.coloumn-name {
+  width: 100px;
+}
+.coloumn-img {
+  width: 90px;
+}
+.coloumn-category {
+  width: 80px;
+}
+.coloumn-quantity {
+  width: 70px;
+}
+.coloumn-price {
+  width: 100px;
+}
+.coloumn-acion {
+  width: 180px;
+}
+.coloumn-delete button {
+  background-color: red;
+
+  border-radius: 5px;
+}
+.coloumn-edit button {
+  background-color: greenyellow;
+
+  border-radius: 5px;
+}
+.table-navigator {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 60px;
+}
+.icon {
+  cursor: pointer;
+}

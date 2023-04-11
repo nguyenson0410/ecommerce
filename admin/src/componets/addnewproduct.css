@@ -1,0 +1,45 @@
+.addNewProduct {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 22px;
+}
+.title-content {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 29px;
+  padding-bottom: 27px;
+}
+
+.content-container {
+  display: flex;
+}
+.input-form {
+  flex: 2;
+}
+.submit-form {
+  flex: 1;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+label {
+  font-size: 12px;
+}
+
+.product-name,
+.category,
+.short-description,
+.price,
+.quantity {
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.long-description {
+  width: 400px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
